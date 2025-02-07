@@ -14,7 +14,7 @@ var tfChart1 = new Chart(ctx1, {
             {
                 label: 'Sale',
                 data: [31, 114, 65, 93, 21, 73, 25, 95, 55, 35, 55, 25, 9, 45, 75, 15],
-                borderColor: '#DDF247', 
+                borderColor: '#f24747', 
                 borderWidth: 2, 
                 fill: false, 
                 type: 'line',
