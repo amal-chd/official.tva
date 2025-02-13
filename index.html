@@ -84,24 +84,37 @@
                                         <li class="menu-item">
                                                 <a href="https://discord.gg/eaglegamingop">Showcase</a>
                                             </li> 
-                                            <li class="menu-item">
+                                            <!-- FontAwesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<li class="menu-item">
     <a href="https://discord.gg/eaglegamingop" class="discord-button">
-        Join Discord
+        <i class="fa-brands fa-discord"></i> Join Discord
     </a>
 </li>
 
+
 <style>
     .discord-button {
-        display: inline-block;
-        background-color: #5865F2; /* Discord Blue */
-        color: white;
-        padding: 10px 20px;
-        border-radius: 8px;
-        font-weight: bold;
-        text-decoration: none;
-        transition: background 0.3s ease-in-out;
-        font-family: Arial, sans-serif;
-    }
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    background-color: #5865F2; /* Discord Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.discord-button:hover {
+    background-color: #4752C4; /* Darker Discord Blue */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
 
     .discord-button:hover {
         background-color: #4752C4; /* Darker Discord Blue */
